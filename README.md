@@ -1,5 +1,5 @@
 # Latitude-Longitude-Scraper
-Scrapes your locations Latitude &amp; Longitude from Google Maps.
+Scrapes your set location's Latitude &amp; Longitude from Google Maps.
 
 # Running Script
 If data is in xlsx file set the file directory as well as the sheet name and column name where the locations are located.
@@ -12,3 +12,6 @@ Once these are set run the script and data will be saved to your directory and s
 
 # Output
 Coordinates will be saved into a new csv next to their respective location name.
+
+# Exceptions
+If you give a broad location such as "Taco Bell New York City" the first result will be returned and will likley not be the location you're looking for, so be as exact as possible.
