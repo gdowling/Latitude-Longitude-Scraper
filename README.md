@@ -14,4 +14,4 @@ Once these are set run the script and data will be saved to your directory and s
 Coordinates will be saved into a new csv next to their respective location name.
 
 # Exceptions
-If you give a broad location such as "Taco Bell New York City" the first result will be returned and will likely not be the location you're looking for, so be as exact as possible.
+If you give a broad location such as "Taco Bell New York City" the first result will be returned and will likely not be the location you're looking for, so be as deliberate as possible.
