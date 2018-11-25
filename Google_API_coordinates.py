@@ -39,7 +39,6 @@ for i in content:
         Address = item['formatted_address']
         Latitude = item['geometry'].get('location').get('lat')
         Longitude = item['geometry'].get('location').get('lng')
-        status = item['status']
         location_info = pd.DataFrame([[Location_name,Address,Latitude,Longitude]])
         location_info.columns = features
         Complete_df = Complete_df.append(location_info, ignore_index = True)
